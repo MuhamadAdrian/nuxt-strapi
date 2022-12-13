@@ -21,7 +21,7 @@ const { data: categories, pending, error } = await useLazyAsyncData(
 
 <template>
 	<div>
-		<div v-if="!pending" class="flex items-center justify-center gap-2 mt-5">
+		<div v-if="pending" class="flex items-center justify-center gap-2 mt-5">
 			<VShimmer :lines="5" :height="25" />
 		</div>
 		<div v-else-if="error">
