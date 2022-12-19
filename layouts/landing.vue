@@ -12,34 +12,6 @@ const menus = ref([
     },
   },
   {
-    text: 'Features',
-    to: '/#features',
-    isActive() {
-      return activeByHash('#features')
-    },
-  },
-  {
-    text: 'Review',
-    to: '/#review',
-    isActive() {
-      return activeByHash('#review')
-    },
-  },
-  {
-    text: 'Pricing',
-    to: '/#pricing',
-    isActive() {
-      return activeByHash('#pricing')
-    },
-  },
-  {
-    text: 'FAQs',
-    to: '/#faq',
-    isActive() {
-      return activeByHash('#faq')
-    },
-  },
-  {
     text: 'Blogs',
     to: '/blogs'
   }
